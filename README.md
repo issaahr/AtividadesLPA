@@ -4,7 +4,7 @@ Fiz o upload para salvar os códigos que desenvolvi como atividade da disciplina
 
 # Q1
 Código básico que calcula os juros conforme a quantidade de parcelas que o cliente desejar.
-*Objetivo: Exercitar condicionais simples (if, elif e else).
+* Objetivo: Exercitar condicionais simples (if, elif e else).
 
 * Sobre as parcelas:
   - Se a quantidade de parcelas for menor que 4, o Juros será de 0%;
@@ -21,7 +21,7 @@ Código básico que calcula os juros conforme a quantidade de parcelas que o cli
     
 # Q2
 Código para simular a interface do cliente com um restaurante, mostrando as opções de para pedidos e retornando o valor final.
-*Objetivo: Exercitar condicionais (if, elif e/ou else no modelo aninhado) e estruturas de repetição (while, com break e continue).
+* Objetivo: Exercitar condicionais (if, elif e/ou else no modelo aninhado) e estruturas de repetição (while, com break e continue).
 
 * Sobre as opções:
   - Tamanho P de Bife Acebolado (BA) custa 16 reais e o Filé de Frango (FF) custa 15 reais;
