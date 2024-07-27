@@ -67,7 +67,7 @@ Fiz o upload para salvar os códigos que desenvolvi como atividade da disciplina
 
 -----
 
-##Q4
+## Q4
 ### Objetivo de aprendizado: Exercitar o uso de funções, manipulação de lista, strings e dicionários, estruturas de repetição (while, com estratégias de tratamento de erros e for). Por questão de preferência, implementei os menus com "Match Case", pois considero que o código fica mais claro e legível com ele.
 
 * Descrição: Código para desenvolver o software de gerenciamento de funcionários, com o seguinte menu e opções:
