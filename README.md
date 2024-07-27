@@ -3,8 +3,9 @@
 Fiz o upload para salvar os códigos que desenvolvi como atividade da disciplina 'Lógica e Programação de Algoritmos' no primeiro período do curso de Engenharia de Software, para posteriormente revisitá-los mais facilmente caso precise. Deixarei os requisitos das questões a seguir.
 
 ## Q1
-Código básico que calcula os juros conforme a quantidade de parcelas que o cliente desejar.
-### Objetivo: Exercitar condicionais simples (if, elif e else).
+### Objetivo de aprendizado: Exercitar condicionais simples (if, elif e else).
+
+* Descrição: Código básico que calcula os juros conforme a quantidade de parcelas que o cliente desejar.
 
 * Sobre as parcelas:
   - Se a quantidade de parcelas for menor que 4, o Juros será de 0%;
@@ -20,8 +21,9 @@ Código básico que calcula os juros conforme a quantidade de parcelas que o cli
 ------
     
 ## Q2
-Código para simular a interface do cliente com um restaurante, mostrando as opções de para pedidos e retornando o valor final.
-### Objetivo: Exercitar condicionais (if, elif e/ou else no modelo aninhado) e estruturas de repetição (while, com break e continue).
+### Objetivo de aprendizado: Exercitar condicionais (if, elif e/ou else no modelo aninhado) e estruturas de repetição (while, com break e continue).
+
+* Descrição: Código para simular a interface do cliente com um restaurante, mostrando as opções de para pedidos e retornando o valor final.
 
 * Sobre as opções:
   - Tamanho P de Bife Acebolado (BA) custa 16 reais e o Filé de Frango (FF) custa 15 reais;
@@ -39,8 +41,9 @@ Código para simular a interface do cliente com um restaurante, mostrando as op�
 -----
 
 ## Q3
-Código para desenvolver a interface para o funcionário de uma fábrica que vende camisetas no atacado. 
-### Objetivo: Exercitar o uso de funções e do bloco try/except dentro do laço while para tratar erros caso o usuário digite um valor diferente das opções mostradas, garantindo que o programa não seja interrompido.
+### Objetivo de aprendizado: Exercitar o uso de funções e do bloco try/except dentro do laço while para tratar erros caso o usuário digite um valor diferente das opções mostradas, garantindo que o programa não seja interrompido.
+
+* Descrição:  Código para desenvolver a interface para o funcionário de uma fábrica que vende camisetas no atacado. 
 
 * Sobre as opções de camiseta
   -	Camiseta Manga Curta Simples (MCS), o valor unitário é de um real e oitenta centavos;
@@ -63,3 +66,24 @@ Código para desenvolver a interface para o funcionário de uma fábrica que ven
   - Foram implementadas saídas que mostram o total a pagar com desconto (se houver). Além de mensagens especiais, caso o usuário digite respostas incoerentes para as perguntas.
 
 -----
+
+##Q4
+### Objetivo de aprendizado: Exercitar o uso de funções, manipulação de lista, strings e dicionários, estruturas de repetição (while, com estratégias de tratamento de erros e for). Por questão de preferência, implementei os menus com "Match Case", pois considero que o código fica mais claro e legível com ele.
+
+* Descrição: Código para desenvolver o software de gerenciamento de funcionários, com o seguinte menu e opções:
+1)	Cadastrar Funcionário
+2)	Consultar Funcionário
+    1.	Consultar Todos 
+    2.	Consultar por Id
+    3.	Consultar por setor
+    4.	Retornar ao menu
+3)	Remover Funcionário
+4)	Encerrar Programa
+
+* Entradas:
+  - Foram implementadas entradas para navegar pelos menus, e conforme a entrada nos menus, pode-se ter entradas para: Inserir os dados do funcionários ( nome, setor e salário), consultar dados dos funcionários (todos, por id, por setor), remover funcionário por ID ou sair do menu.
+* Saídas:
+  - Foram implementadas saídas para os menus e dados conforme o usuário solicite.
+* Particularidades exigidas pela instituição:
+  - O ID do primeiro funcionário deve começar com um número fixo e pré-definido no código, e depois ser autoincrementável para registrar os próximos IDs;
+  - O banco de dados deve ser uma lista de dicionários.
